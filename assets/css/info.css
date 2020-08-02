@@ -1,0 +1,106 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.col-md-4 >.card
+{
+    border: 1px solid #fff;
+    box-shadow:0 4px 8px rgba(0,0,0,.1);
+    background-color:#fff;
+    border-radius: 15px;
+    margin: 25px 0;
+}
+.modal-content
+{
+    border: 1px solid #fff;
+    box-shadow:0 4px 8px rgba(0,0,0,.1);
+    background-color:#fff;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 20px;
+}
+.modal-content >.card
+{
+    border: 1px solid #fff;
+    border-radius: 15px;
+}
+.more
+{
+    background-color: #F8726E;
+    color: #fff;
+    border-radius: 0 0 15px 15px;
+    width: 100% !important;
+    position: absolute;
+    transform: translate(100%,0%);
+}
+.more-modal
+{
+    background-color: #F8726E;
+    color: #fff;
+    border-radius: 0 0 15px 15px;
+    width: 100% !important;
+    position: absolute;
+    transform: translate(100.15%,-58%);
+    margin-bottom: 30px;
+}
+.latest
+{
+    display: flex;
+    margin:30px auto;
+    justify-content: center;
+    width: 130px;
+    background-color: #ffffff;
+    color: #3A3A6D;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 3px #F8726E;
+    padding: 10px 5px;
+    font-family: Tajawal, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+.desc
+{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#top {
+    display: inline-block;
+    background-color: #f8726e;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #top::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #top:hover {
+    cursor: pointer;
+    background-color: #3a3a6d;
+  }
+  #top:active {
+    background-color: #3a3a6d;
+  }
+  #top.show {
+    opacity: 1;
+    visibility: visible;
+  }

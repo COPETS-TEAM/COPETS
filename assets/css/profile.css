@@ -1,0 +1,88 @@
+.form-btn,img.avart-img{max-width:200px}.no-marging{margin:0!important} div.container.profile{padding:10px 20px}.center{text-align:center}.relative{position:relative}.absolue{position:absolute}
+div.profile-row{margin:40px 0;padding:10px 0;border: 1px solid #ffffff;border-radius: 20px;box-shadow: 0 2px 3px #C4C4CE;}
+.absolue.center{left:50%;top:50%;transform:translate(-50%,0)} hr{height:2px}.content-right>*{float:right}.form-btn{min-width:100px;margin:0 5px}div.avatar-bg{background:url(https://www.gravatar.com/avatar/1234566?size=200&d=mm) 50% 50%;height:200px;width:200px;background-size:cover;border-radius:50%;margin-left:calc(50% - 100px)}
+.labels
+{
+    font-family: Changa, sans-serif;
+    background-color: #EFF0F3;
+    color: #2C3A61;
+    padding: 10px 0;
+    border-radius: 25px 0 0 25px;
+    margin: 5px 0;
+}
+.userid
+{
+    font-family: Changa, sans-serif;
+    text-align: center !important;
+    background-color: #EFF0F3;
+    border: 1px solid #EFF0F3;
+    border-radius: 25px;
+    color: #2C3A61;
+    margin:5px 0;
+    width: max-content;
+    padding: auto 5px;
+}
+.user_ip
+{
+    background-color: #EFF0F3;
+    color: #2C3A61;
+    font-family: Changa, sans-serif;
+    border: 1px solid #EFF0F3;
+    border-radius: 25px;
+    margin: 17px;
+    height: 46px;
+}
+.sub_btn
+{
+    font-family: Tajawal, sans-serif;
+    background-color: #F8726E;
+    color: #2C3A61;
+    margin: 10px 59px 10px 0;
+    border-radius: 25px;
+    padding: 8px 40px;
+}
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .change {
+      height: 40px;
+      width: 100px;
+      font-family: Changa, sans-serif;
+      color: #aaabac;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: .4s ease;
+  }
+  .change:hover
+  {
+    color: #2C3A61;
+  }
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+  }
+  .alert-prof
+  {
+      top: 95px;
+      left: 15%;
+      width: 70%;
+  }
+  select {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+  }
+  
+  /* For IE10 */
+  select::-ms-expand {
+    display: none;
+  }
+  div.avatar> #updateProf {border-radius:50%}

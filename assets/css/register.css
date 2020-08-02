@@ -1,0 +1,130 @@
+.login-dark
+{
+    height:1000px;
+    background:url(../../assets/img/star-sky.jpg) #475d62;
+    background-size:cover;position:relative
+}
+.login-dark form
+{
+    max-width:360px;
+    width:100%;
+    padding:40px;
+    border-radius:20px;
+    transform:translate(-50%,-50%);
+    position:absolute;
+    top:50%;
+    left:80%;
+    color:#fff;
+    box-shadow:3px 3px 4px #00000033;
+    background-color: #3A3A6D;
+}
+.login-dark .reg_form
+{
+    top:47%;
+}
+.login-dark form .form-control
+{
+    background-color: #ffffff;
+    color: #3a3a6d;
+    font-family: Tajawal, sans-serif;
+    border: 1px;border-radius: 0 15px 15px 0 !important;
+}
+.login-dark form .forgot{
+    display:block;
+    margin-bottom: 15px;
+    font-size:12px;
+    color:#6f7a85;
+    opacity:.9;
+    text-decoration:none
+}
+.login-dark form .forgot:active,.login-dark form .forgot:hover{opacity:1;text-decoration:none}
+.login-dark .cat
+{
+    transform:translate(-50%,-50%);
+    position:absolute;
+    top:55%;
+    left:35%;
+    width:30%;
+}
+.login-dark .heart
+{
+    transform:translate(-50%,-50%);
+    position:absolute;
+    top:36%;
+    left:75%;
+    width:35%;
+}
+.iconc
+{
+    background-color: #fff;
+    color: #3a3a6d;
+    vertical-align: middle;
+    border: 1px solid #fff;
+    border-radius: 15px 0 0 15px !important;
+}
+.btn
+{
+    background-color: #FCCAC9;
+    color: #232A5B;
+    font-family: Tajawal, sans-serif;
+    border-radius: 15px;
+}
+small
+{
+    font-size: 12px;
+    font-family: Tajawal, sans-serif;
+}
+.brand
+{
+    color: #fff;
+    text-decoration: none;
+}
+.brand:hover
+{
+    color: #FA9592;
+}
+select {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+  }
+  
+  /* For IE10 */
+  select::-ms-expand {
+    display: none;
+  }
+
+  /* ======================= */
+@media (max-width:1024px){
+    .login-dark .cat
+    {
+      display: none;  
+    }
+}
+
+@media (max-width:768px){
+    .login-dark form
+    {
+        max-width:360px;
+        top:40%;
+        left:70%;
+    }
+    
+}
+
+@media (max-width:426px){
+    .login-dark form
+    {
+        max-width:360px;
+        top:50%;
+        left:50%;
+    }
+    .login-dark .heart
+    {
+        top: 42%;
+        left: 50%;
+        width: 68%;
+    }
+    
+}
